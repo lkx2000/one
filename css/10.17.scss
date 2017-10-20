@@ -1,5 +1,9 @@
 @charset "utf-8";
-.ShouYe{
+html,body{
+    width: 100%;
+    height:100%;
+}
+.ShouYe {
     width: 100%;
     height: 1.03rem;
     padding: 0.16rem 0.18rem;
@@ -7,107 +11,109 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    div{
+        div{
+            display: flex;
+            flex-direction: column;
+        }
+    }
     font-size: 0.22rem;
     color: #999;
-    
-    img{
+    img {
         width: 2.19rem;
         height: 0.72rem;
     }
 }
-.img1{
+.img1 {
     width: 0.41rem !important;
     height: 0.45rem !important;
 }
-
-.ShouYe>div{
+.ShouYe>div {
     width: 1.63rem;
     height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.ShouYez{
+.ShouYez {
     width: 100%;
     height: 2.40rem;
 }
-.ShouYed{
+.ShouYed {
     width: 100%;
     height: 4.67rem;
     font-size: 0.28rem;
     color: #333;
-    padding: 0.36rem 0.39rem 0.40rem 0.39rem;
+    padding: 0.36rem 0.39rem 0.40rem;
     box-sizing: border-box;
     display: flex;
-    justify-content:space-between; 
+    justify-content: space-between;
     text-align: center;
     flex-wrap: wrap;
-    img{
+    img {
         width: 1.35rem;
         height: 1.20rem;
-
     }
-       p{
-        width: 100%; 
+    p {
+        width: 100%;
         overflow: hidden;
-        text-overflow:ellipsis;
+        text-overflow: ellipsis;
         white-space: nowrap;
     }
-    div{
+    div {
         width: 1.35rem;
         height: 1.73rem;
         overflow: hidden;
     }
 }
-.ShouYedi{
+.ShouYedi {
     width: 100%;
     height: 6.85rem;
     padding: 0.18rem 0;
     box-sizing: border-box;
     background: gainsboro;
- 
-    img{
+    div {
+        background: white;
+    }
+    img {
         width: 100%;
         height: 4.07rem;
     }
-    
 }
-.ShouYedi>div:nth-child(1){
-   
-        width: 100%;
-        height: 1.05rem !important;
-        padding: 0.32rem;
-        height: 0.15rem;
-        box-sizing: border-box;
-        font-size: 0.36rem;
-        span{
-            margin-left: 0.15rem;
-        }
-        div{
-         
-            line-height: normal;
-            font-size: 0.24rem;
-            color: #999;
-            margin-left: 0.3rem;
-        }
-        display: flex;
+.ShouYedi>div:nth-child(1) {
+    width: 100%;
+    height: 1.05rem !important;
+    padding: 0.32rem;
+    height: 0.15rem;
+    box-sizing: border-box;
+    font-size: 0.36rem;
+    span {
+        margin-left: 0.15rem;
     }
-.n1{
+    div {
+        line-height: normal;
+        font-size: 0.24rem;
+        color: #999;
+        margin-left: 0.3rem;
+    }
+    display: flex;
+}
+.n1 {
     width: 0.05rem !important;
     height: 0.42rem !important;
-    background: green !important; 
+    background: green !important;
 }
-.n2{
+.n2 {
     width: 100%;
     height: 0.29rem !important;
-padding: 0 !important;
-margin:  0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    p{
+    p {
         display: inline-block;
-        width: 0.2rem; 
+        width: 0.2rem;
         margin-left: 0.2rem;
         background: black;
         height: 0.2rem;
@@ -115,13 +121,13 @@ margin:  0 !important;
         background: green;
     }
 }
-.n3{
+.n3 {
     width: 100% !important;
     height: 0.69rem !important;
     font-size: 0.26rem;
     color: #000;
     display: flex;
-    div{
+    div {
         height: 0.69rem;
         text-align: center;
         line-height: 0.69rem;
@@ -129,8 +135,288 @@ margin:  0 !important;
         justify-content: space-between;
         align-items: center;
     }
-    img{
+    img {
         width: 0.4rem;
         height: 0.4rem;
     }
-   }
+}
+.ShouYedi1>div:nth-child(1) {
+    width: 100%;
+    height: 1.05rem !important;
+    padding: 0.32rem;
+    height: 0.15rem;
+    box-sizing: border-box;
+    font-size: 0.36rem;
+    span {
+        margin-left: 0.15rem;
+    }
+    div {
+        line-height: normal;
+        font-size: 0.24rem;
+        color: #999;
+        margin-left: 0.3rem;
+    }
+    display: flex;
+}
+.ShouYedi1 {
+    width: 100%;
+    height: 6.55rem;
+    background: gainsboro;
+    text-align: center;
+    background: white;
+    input {
+        width: 5.86rem;
+        height: 0.7rem;
+        color: gray;
+        border: 1px solid;
+        font-size: 0.262rem;
+        outline: none;
+        
+    }
+}
+.in1 {
+    width: 5.86rem;
+    height: 0.7rem;
+    background: gold;
+}
+.ShouYea1{
+    width: 100%;
+    height: 5rem;
+    font-size: 0.36rem;
+    padding: 0.19rem 0.30rem;
+    box-sizing: border-box;
+   
+    
+    
+}
+.zi1{
+     width: 100%;
+     height: 0.8rem;
+    font-size: 0.36rem;
+        div{
+            width: 0.1rem;
+            height: 0.4rem;
+            background: green;
+            float: left;
+            
+            
+        }
+        span{
+            float: left;
+            margin-left: 0.17rem;
+        }
+    
+}
+.zi2{
+    width: 100%;
+    height: 3.14rem;
+    color: #000;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+    font-size: 0.36rem;
+    img{
+        width: 1.40rem;
+        height: 1.40rem;
+    }
+}
+.zi{
+    width: 1.20rem;
+    height: 0.32rem;
+    font-size: 0.24rem;
+    line-height: 0.32rem;
+    text-align: center;
+    background: green;
+    border-radius: 5px ;
+    margin-top: .25rem;
+    
+}
+.zi3{
+    width: 100%;
+    height: .7rem;
+    box-sizing: border-box;
+    color: greenyellow;
+    font-size: 0.24rem;
+    
+    display: flex;
+    div{
+        width: 50%;
+        height: 100%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    justify-content: center;
+    img{
+        width: 0.28rem;
+       height: 0.28rem;
+    }
+}
+.ShouYetu{
+    p{
+        font-size: 0.24rem;
+        width: 100%;
+        height: 0.74rem;
+        line-height: 0.74rem;
+       
+    }
+   width: 100%;
+   height: 12.62rem;
+   padding: 0.19rem 0.30rem;
+    box-sizing: border-box;
+   
+}
+.ShouYetu1{
+    p{
+        font-size: 0.24rem;
+        width: 100%;
+        height: 0.74rem;
+        line-height: 0.74rem;
+       
+    }
+   width: 100%;
+   height: 8.37rem;
+   padding: 0.19rem 0.30rem;
+    box-sizing: border-box;
+   
+}
+.img3{
+width: 100%;
+    height: 5.06rem;
+}
+.n4{
+    width: 100%;
+    height: 5.07rem;
+    display: flex;
+    flex-wrap: wrap;
+    img{
+        width: 48%;
+        height: 48%;
+    }
+}
+.s1{
+    width: 1.187rem;
+    height: 0.34rem;
+    background:green ;
+    color: white;
+    border-radius: 5px;
+    margin-left: 0.28rem;
+}
+.ShouYetu2{
+   width: 100%;
+   height: 8rem;
+   padding: 0.19rem 0.30rem;
+    box-sizing: border-box;
+    font-size: 0.34rem;
+    
+   
+}
+.wenz{
+    width:100%;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.in3{
+    width: 100%;
+    height: 1.98rem;
+    
+    div{
+        display: flex;
+        flex-wrap: wrap;
+        p{
+        display: inline-block;
+        width: 100%;
+    }
+    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+.img4{
+    width: 0.35rem;
+    height: 0.3rem;
+}
+ .img5{
+        width: 1.90rem;
+        height: 1.45rem;
+    }
+    .in2{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 0.3rem;
+    }
+.ShouYedi2{
+    width: 100%;
+    height: 2.5rem;
+    padding: 0.36rem 0.18rem;
+    font-size: 0.28rem;
+    box-sizing: border-box;
+    text-indent: 2rem;
+}
+.ShouYedi3{
+    width: 100%;
+    height: 1.33rem;
+    font-size: 0.28rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    div{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    li{
+        float: left;
+        margin-left: 0.78rem;
+        
+    }
+    img{
+        width: 0.32rem;
+        height: 0.32rem;
+    }
+    
+}
+.ShouYedi4{
+    width: 100%;
+    height: 1.09rem;
+    background: #000;
+    opacity: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white; 
+align-items: center;
+img{
+    width: 0.95rem;
+    height: 0.95rem;
+    
+}
+input{
+    width: 1.80rem;
+    height: 0.5rem;
+    font-size: 0.24rem;
+    background: gold;
+    border-radius: 10px;
+}
+}
+.ddd1{
+width: 3.40rem;
+height: 100%;
+text-align: center;
+    p{
+
+        display: inline-block;
+    }
+    font-size: 0.32rem;
+
+}
+.ddd1>p:nth-child(1){
+        margin-top: 0.24rem;
+    
+}

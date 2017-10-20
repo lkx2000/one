@@ -1,0 +1,170 @@
+.SheJia {
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  font-size: 0.33rem;
+  justify-content: space-between;
+  align-items: center; }
+  .SheJia img {
+    width: 2.17rem;
+    height: 0.72rem;
+    margin-left: 0.15rem;
+    margin-top: 0.15rem; }
+  .SheJia div {
+    width: 1.24rem;
+    height: 0.73rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .SheJia div a {
+      width: 50%;
+      display: flex;
+      font-size: 0.2rem;
+      align-items: center;
+      flex-direction: column; }
+
+.svg {
+  font-size: 0.4rem; }
+
+.SheShic {
+  width: 100%;
+  height: 1.7rem; }
+  .SheShic div {
+    width: 4.79rem;
+    height: 1.50rem;
+    margin-left: 1.35rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-between; }
+    .SheShic div li {
+      width: 1rem;
+      height: 1.47rem;
+      font-size: 0.25rem;
+      display: flex;
+      flex-direction: column; }
+      .SheShic div li p {
+        margin-top: 0.25rem; }
+  .SheShic img {
+    width: 1rem;
+    height: 1rem; }
+
+.SheShia-img2 {
+  margin-left: 0.8rem; }
+
+.SheJie {
+  width: 100%;
+  height: 1rem;
+  font-size: 0.24rem;
+  color: grey;
+  display: flex;
+  text-indent: 1em; }
+  .SheJie p {
+    height: 1rem;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-line-break: auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-height: .54rem;
+    margin-left: 0.15rem;
+    margin-right: 0.15rem; }
+
+.SheJif {
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .SheJif span {
+    font-size: .24rem; }
+
+.SheJig {
+  width: 100%;
+  height: 3.18rem;
+  font-size: 0.28rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .SheJig img {
+    width: 100%;
+    height: 2.37rem; }
+  .SheJig div {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+.SheShia-l1 {
+  width: 1.59rem;
+  height: 0.73rem;
+  margin-left: 1.87rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 0.2rem;
+  margin-top: 0.2rem; }
+  .SheShia-l1 a {
+    width: 0.46rem;
+    height: 0.71rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.2rem; }
+
+.svg1 {
+  font-size: 0.45rem; }
+
+.SheShia-img1 {
+  width: 2.14rem;
+  height: 0.74rem;
+  margin-left: 0.24rem;
+  margin-top: 0.08rem; }
+
+.SheShia-span1 {
+  margin-left: 0.7rem;
+  margin-top: 0.34rem;
+  margin-bottom: 0.34rem; }
+
+.SheShib {
+  width: 100%;
+  height: 0.75rem;
+  font-size: 0.28rem;
+  display: flex; }
+  .SheShib div {
+    margin-top: 0.52rem; }
+  .SheShib li {
+    margin-left: 0.22rem; }
+
+.SheShia-img2 {
+  width: 1.60rem;
+  height: 1.6rem;
+  margin-left: 0.17rem;
+  margin-top: 0.35rem; }
+  .SheShia-img2 li {
+    margin-left: 0.23rem; }
+
+.Yan1 {
+  width: 0.6rem;
+  height: 0.33rem;
+  display: inline-block;
+  border-radius: 0.05rem;
+  background: #39c792;
+  font-size: 0.23rem;
+  color: white;
+  text-align: center;
+  line-height: 0.33rem;
+  margin-left: .22rem; }
+
+.Yan2 {
+  font-size: 0.33rem; }
+
+.Yan3 {
+  margin-left: 0.5rem; }
+
+.SheShil2 {
+  margin-top: 0.22rem; }
+
+.SheShib {
+  width: 100%;
+  height: 2.77rem; }
+
+/*# sourceMappingURL=10.19(4).css.map */

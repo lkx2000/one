@@ -1,0 +1,38 @@
+.Disia {
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  padding: 0.1rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+  font-size: 0.36rem;
+  align-items: center; }
+  .Disia option {
+    border: 0; }
+  .Disia img {
+    width: .61rem;
+    height: 0.51rem; }
+  .Disia select {
+    width: 1.90rem;
+    height: 100%; }
+
+.Disib {
+  width: 100%;
+  height: 10rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap; }
+  .Disib img {
+    width: 100%;
+    height: 60%; }
+  .Disib p {
+    font-size: 0.36rem;
+    margin: 0;
+    padding: 0; }
+  .Disib span {
+    font-size: 0.20rem; }
+  .Disib div {
+    width: 50%;
+    height: 33%; }
+
+/*# sourceMappingURL=10.18(2).css.map */

@@ -1,195 +1,455 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/10.17.css"/>
-		<style type="text/css">
-			/**
+		<link rel="stylesheet" type="text/css" href="css/10.17.css" />
+		<style type="text/css">/**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
  */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video, input {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font-weight: normal;
-    vertical-align: baseline;
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
 }
 
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, menu, nav, section {
-    display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+	display: block;
 }
 
 body {
-    line-height: 1;
+	line-height: 1;
 }
 
-blockquote, q {
-    quotes: none;
+blockquote,
+q {
+	quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
+
 /* custom */
+
 a {
-    color: #7e8c8d;
-    text-decoration: none;
-    -webkit-backface-visibility: hidden;
+	color: #7e8c8d;
+	text-decoration: none;
+	-webkit-backface-visibility: hidden;
 }
 
 li {
-    list-style: none;
+	list-style: none;
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
-    height: 5px;
+	width: 5px;
+	height: 5px;
 }
 
 ::-webkit-scrollbar-track-piece {
-    background-color: rgba(0, 0, 0, 0.2);
-    -webkit-border-radius: 6px;
+	background-color: rgba(0, 0, 0, 0.2);
+	-webkit-border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:vertical {
-    height: 5px;
-    background-color: rgba(125, 125, 125, 0.7);
-    -webkit-border-radius: 6px;
+	height: 5px;
+	background-color: rgba(125, 125, 125, 0.7);
+	-webkit-border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:horizontal {
-    width: 5px;
-    background-color: rgba(125, 125, 125, 0.7);
-    -webkit-border-radius: 6px;
+	width: 5px;
+	background-color: rgba(125, 125, 125, 0.7);
+	-webkit-border-radius: 6px;
 }
 
-html, body {
-    width: 100%;
+html,
+body {
+	width: 100%;
 }
 
 body {
-    -webkit-text-size-adjust: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-text-size-adjust: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}</style>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chome=1" />
+		<!--视口--设备宽度--初始缩放比例--最小缩放比例--最大缩放比例--用户缩放-->
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<!--禁止浏览器自动的识别-电话号码-email--->
+		<meta name="format-detection" content="telephone=no,email=no" />
+		<!--是否启用Web全屏-->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-status-bar-style" content="normal|black|black-translucent">
+		<!--设置苹果工具栏颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black " />
+		<script type="text/javascript">window.onload = function() {
+	var width = document.documentElement.clientWidth;
+	document.documentElement.style.fontSize = width / 750 * 100 + "px";
 }
-</style>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chome=1" />
-    <!--视口--设备宽度--初始缩放比例--最小缩放比例--最大缩放比例--用户缩放-->
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-    <!--禁止浏览器自动的识别-电话号码-email--->
-    <meta name="format-detection" content="telephone=no,email=no"/>
-    <!--是否启用Web全屏-->
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-status-bar-style" content="normal|black|black-translucent">
-    <!--设置苹果工具栏颜色-->
-    <meta name="apple-mobile-web-app-status-bar-style" content="black "/>
-    <script type="text/javascript">
-            window.onload=function  () {
-                var width=document.documentElement.clientWidth;
-                document.documentElement.style.fontSize=width/750*100+"px";
-            }
-            window.onresize=function  () {
-                window.location.reload();
-            }
-        </script>
-    
+window.onresize = function() {
+	window.location.reload();
+}</script>
 
 	</head>
+
 	<body>
 		<header class="ShouYe">
-		<img src="img1/c6303740d5146d4b85b1d2fbbaaf5793.png" />
-		<div>
+			<img src="img1/c6303740d5146d4b85b1d2fbbaaf5793.png" />
 			<div>
-			<img  class="img1" src="img1/0ccf298928f852439e3f76e3693e6da8.png"/>
-			<p>我的</p>
+				<div>
+					<img class="img1" src="img1/0ccf298928f852439e3f76e3693e6da8.png" />
+					<p>我的</p>
+				</div>
+				<div>
+					<img class="img1 " src="img1/dae52529bc95c7499c4d82c6d6933738.png" />
+					<p>导航</p>
+				</div>
 			</div>
-		<div>
-			<img class="img1 " src="img1/dae52529bc95c7499c4d82c6d6933738.png"/>
-			<p>导航</p>
-		</div>
-		</div>
-		
+
 		</header>
-		<img class="ShouYez" src="img1/de4b340912c59b5f43e793f4be3649ac.png"/>
+		<img class="ShouYez" src="img1/de4b340912c59b5f43e793f4be3649ac.png" />
 		<div class="ShouYed">
 			<div>
-				<img src="img1/0978e2c60f0915438075bb8b95d68fd9.png"/>
-				<p>装修方案dddddddddddd</p>
+				<img src="img1/0978e2c60f0915438075bb8b95d68fd9.png" />
+				<p>装修方案dddddsssssddddddd</p>
 			</div>
 			<div>
-				<img src="img1/0978e2c60f0915438075bb8b95d68fd9.png"/>
+				<img src="img1/0978e2c60f0915438075bb8b95d68fd9.png" />
 				<p>装修方案</p>
-			</div><div>
-				<img src="img1/0978e2c60f0915438075bb8b95d68fd9.png"/>
+			</div>
+			<div>
+				<img src="img1/0978e2c60f0915438075bb8b95d68fd9.png" />
 				<p>装修方案</p>
-			</div><div>
-				<img src="img1/0978e2c60f0915438075bb8b95d68fd9.png"/>
+			</div>
+			<div>
+				<img src="img1/0978e2c60f0915438075bb8b95d68fd9.png" />
 				<p>装修方案</p>
-			</div><div>
-				<img src="img1/0978e2c60f0915438075bb8b95d68fd9.png"/>
+			</div>
+			<div>
+				<img src="img1/0978e2c60f0915438075bb8b95d68fd9.png" />
 				<p>装修方案</p>
-			</div><div>
-				<img src="img1/0978e2c60f0915438075bb8b95d68fd9.png"/>
+			</div>
+			<div>
+				<img src="img1/0978e2c60f0915438075bb8b95d68fd9.png" />
 				<p>装修方案</p>
-			</div><div>
-				<img src="img1/0978e2c60f0915438075bb8b95d68fd9.png"/>
+			</div>
+			<div>
+				<img src="img1/0978e2c60f0915438075bb8b95d68fd9.png" />
 				<p>装修方案</p>
-			</div><div>
-				<img src="img1/0978e2c60f0915438075bb8b95d68fd9.png"/>
+			</div>
+			<div>
+				<img src="img1/0978e2c60f0915438075bb8b95d68fd9.png" />
 				<p>装修方案</p>
-			</div> 
+			</div>
 		</div>
 		<div class="ShouYedi">
 			<div>
-			<div class="n1"></div>
-			<span>
+				<div class="n1"></div>
+				<span>
 				全屋装修
 			</span>
-			<div>包设计，包主材，包水电，包施工</div>
+				<div>包设计，包主材，包水电，包施工</div>
 			</div>
-			<img src="img1/d60a06265f8b6749a970c4058cd6e121.png"/>
+			<img src="img1/d60a06265f8b6749a970c4058cd6e121.png" />
 			<div class="n2" style="width:100%; height: 0.29rem;">
 				<p></p>
 				<p></p>
 			</div>
 			<div class="n3">
 				<div>
-				<img src="img/图层30.png"/>
-				<span>0增项，标准施工</span>
+					<img src="img/图层30.png" />
+					<span>0增项，标准施工</span>
 				</div>
 				<div>
-				<img src="img/图层30.png"/>
-				<span>0增项，标准施工</span>
+					<img src="img/图层30.png" />
+					<span>0增项，标准施工</span>
 				</div>
 				<div>
-				<img src="img/图层30.png"/>
-				<span>0增项，标准施工</span>
+					<img src="img/图层30.png" />
+					<span>0增项，标准施工</span>
 				</div>
 			</div>
 		</div>
-		
+		<div class="ShouYedi1">
+			<div>
+				<div class="n1"></div>
+				<span>
+				全屋装修
+			</span>
+				<div>包设计，包主材，包水电，包施工</div>
+			</div>
+			<input type="text" value="小区名" name="" id="" value="" />
+			<input type="text" value="手机号" name="" id="" value="" />
+			<input type="text" value="建筑面积" name="" id="" value="" />
+			<input class="in1" type="button" value="立即申请" />
+		</div>
+		<div class="ShouYea1">
+			<div class="zi1">
+				<div></div>
+
+				<span>设计师</span>
+			</div>
+			<div class="zi2">
+				<div>
+					<img src="img/图层14.png" />
+					<div>吴飞科</div>
+					<div class="zi">优秀</div>
+				</div>
+				<div>
+					<img src="img/图层14.png" />
+					<div>吴飞科</div>
+					<div class="zi">优秀</div>
+					
+				</div>
+				<div>
+					<img src="img/图层14.png" />
+					<div>吴飞科</div>
+					<div class="zi">优秀</div>
+					
+				</div>
+				<div>
+					<img src="img/图层14.png" />
+					<div>吴飞科</div>
+					<div class="zi">优秀</div>
+					
+				</div>
+			</div>
+			<div class="zi3">
+				<div>换一换<img src="img/图层2.png"/></div>
+				<div>更多设计师<img src="img/图层22.png"/></div>
+			</div>
+		</div>
+		<div style="width: 100%; height: 0.25rem; background: gainsboro;"></div>
+		<div class="ShouYetu">
+			<div class="zi1">
+				<div>
+					
+				</div>
+
+				<span>设计师</span>
+			</div>
+			<img class="img3" src="img/图层18.png"/>
+			<div class="n4" >
+				<img src="img/图层18.png"/>
+					<img src="img/图层19.png"/>
+					<img src="img/图层19.png"/>
+					<img src="img/图层18.png"/>
+			</div>
+			<div class="zi3">
+				<div>换一换<img src="img/图层2.png"/></div>
+				<div>更多设计师<img src="img/图层22.png"/></div>
+			</div>
+		</div>
+			<div class="ShouYetu1">
+			<div class="zi1">
+				<div>
+					
+				</div>
+
+				<span>设计师</span>
+			</div>
+			<img class="img3" src="img/图层18.png"/>
+			<p>中期嘉禾哈活动时间的<span class="s1">尼姆工程</span></p>
+			<div class="zi3">
+				<div>换一换<img src="img/图层2.png"/></div>
+				<div>更多设计师<img src="img/图层22.png"/></div>
+			</div>
+		</div>
+		<div style="width: 100%; height: 0.25rem; background: gainsboro;"></div>
+		<div class="ShouYetu2"> 
+			<div class="zi1">
+				<div>
+					
+				</div>
+				<span>设计师</span>
+			</div>
+			<div class="in3">
+				<img class="img5" src="img/图层16.png"/>
+				<div>
+					<p>房子交付要 验房师做什么的？</p>
+					<div class="in2">
+						<div>
+							<img class="img4" src="img/图层3.png"/>
+						2016-07-07
+						</div>
+						<div>
+							<img class="img4" src="img1/dae52529bc95c7499c4d82c6d6933738.png"/>
+						115
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="in3">
+				<img class="img5" src="img/图层16.png"/>
+				<div>
+					<p>房子交付要 验房师做什么的？</p>
+					<div class="in2">
+						<div>
+							<img class="img4" src="img/图层3.png"/>
+						2016-07-07
+						</div>
+						<div>
+							<img class="img4" src="img1/dae52529bc95c7499c4d82c6d6933738.png"/>
+						115
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="in3">
+				<img class="img5" src="img/图层16.png"/>
+				<div>
+					<p>房子交付要 验房师做什么的？</p>
+					<div class="in2">
+						<div>
+							<img class="img4" src="img/图层3.png"/>
+						2016-07-07
+						</div>
+						<div>
+							<img class="img4" src="img1/dae52529bc95c7499c4d82c6d6933738.png"/>
+						115
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="zi3">
+				<div>换一换<img src="img/图层2.png"/></div>
+				<div>更多设计师<img src="img/图层22.png"/></div>
+			</div>
+		</div>
+		<div style="width: 100%; height: 0.25rem; background: gainsboro;"></div>
+		<div class="ShouYedi2">
+			客服到世界付款适得府
+				客服到世界付款适得府君书都快放假 交付活动时间 客服到世界付款适君书都快放假 交付活动时间 客服到世界付款适	客服到世界付款适得府君书都快放假 交付活动时间 客服到世界付款适得府君书都快放假 交付活动时间 客服到世界付款适得府君书都快放假 交付活动时间 
+		</div>
+		<div style="width: 100%; height: 0.25rem; background: gainsboro;"></div>
+		<div class="ShouYedi3">
+<div>
+	<img src="img/图层3.png"/>
+	服务热线：400-9977-658
+</div>
+<div>
+	<li>触屏版</li>
+<li>电脑版</li>
+<li>关于我们</li>
+<li>联系我们</li>
+</div>
+		</div>
+		<div class="ShouYedi4">
+				<img src="img/图层33.png"/>
+				<div class="ddd1"> 
+					<p>装修报价，只需10秒</p>
+					<p>免费为你算的装修预算</p>
+				</div>
+				<input type="button"  name="" id="" value="免费获取报价" />
+		</div>
 	</body>
+
 </html>
